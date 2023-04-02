@@ -9,7 +9,7 @@ var debug = require('debug')('node-liverserver:server');
 var http = require('http');
 
 var mongoose = require('mongoose')
-mongoose.connect('mongodb://127.0.0.1:27017/liveserver')
+mongoose.connect("mongodb+srv://yeshthummer:5E69mza6RgXOnLke@cluster0.k1idgpi.mongodb.net/test")
   .then(() => console.log('Connected!'));
 
 /**
